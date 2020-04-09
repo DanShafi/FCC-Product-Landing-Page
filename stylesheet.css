@@ -7,7 +7,18 @@
 /* DELETE THIS CODE ABOVE */
 
 #header {
-    background: white;
-    height: 100px;
+    background: black;
+    height: 70px;
 }
 
+#video-bg {
+    background: black;
+}
+
+#nav-bar {
+    bottom: 10px;
+}
+
+#footer-bg {
+    background: black;
+}
