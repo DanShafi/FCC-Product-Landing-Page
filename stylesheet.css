@@ -22,3 +22,66 @@
 #footer-bg {
     background: black;
 }
+
+#video {
+    width: 100vw;
+    height:;
+  }
+
+  .video-title {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+  }
+
+  .video-title h1 {
+      text-align: center;
+      font-size: 6rem;
+      z-index: 1;
+      color: white;
+      font-family: Oswald, sans-serif;
+      font-weight: 700;
+      letter-spacing: -0.04em;
+  }
+
+  #flyknit-3-title {
+    font-family: Oswald, sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+  }
+
+  .video-container {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+  }
+
+  .img-hover {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+  .img-hover:hover {
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+.card {
+    border: none !important;
+}
+
+.nav-link {
+    font-weight: 400;
+    letter-spacing: -0.04em;
+    color: white;
+}
+
+.nav-link:hover {
+    color: #afafaf;
+}
