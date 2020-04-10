@@ -48,10 +48,18 @@
       letter-spacing: -0.04em;
   }
 
-  #flyknit-3-title {
+  #section-title {
     font-family: Oswald, sans-serif;
     font-weight: 700;
     letter-spacing: -0.04em;
+    text-align: center;
+  }
+
+  #title {
+    font-family: Oswald, sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
   }
 
   .video-container {
@@ -84,4 +92,59 @@
 
 .nav-link:hover {
     color: #afafaf;
+}
+
+.submit-button {
+    background-color: black;
+    font-family: Oswald, sans-serif;
+    color: white;
+    text-transform: uppercase;
+    width: 100%;
+    font-size: 12px;
+    letter-spacing: 0.15em;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#form-title {
+    font-family: Oswald, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.img-change-1 {
+    content: url('https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/gaj0xwehnray0onbxsc4/air-vapormax-flyknit-3-shoe-k9MQp8.jpg');
+    width: 100%;
+}
+
+.img-change-1:hover {
+    content: url('https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/re87lg3k6cgeqqdwzuf6/air-vapormax-flyknit-3-shoe-k9MQp8.jpg')
+}
+
+.img-change-2 {
+    content: url('https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/451e910b-9c63-476f-a289-44b9cf63d161/air-vapormax-flyknit-3-shoe-8g2nsq.jpg');
+    width: 100%;
+}
+
+.img-change-2:hover {
+    content: url('https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/7fcbde64-d200-4c1f-83f9-0543484bbd45/air-vapormax-flyknit-3-shoe-8g2nsq.jpg')
+}
+
+.more-available {
+    color: grey;
+    text-align: right;
+}
+
+#nike-send {
+    color: grey;
+    text-decoration: underline;
+}
+
+#sign-up {
+    background: #f7f7f7;
+}
+
+.subfooter {
+    color: grey;
+    font-size: 12px;
 }
