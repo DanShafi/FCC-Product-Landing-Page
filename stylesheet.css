@@ -1,31 +1,14 @@
-/* DELETE THIS CODE BELOW */
-.project {
-    color: red;
-    font-weight: 900;
-    text-align: center;
-}
-/* DELETE THIS CODE ABOVE */
-
 #header {
     background: black;
     height: 70px;
-}
-
-#video-bg {
-    background: black;
 }
 
 #nav-bar {
     bottom: 10px;
 }
 
-#footer-bg {
-    background: black;
-}
-
 #video {
     width: 100vw;
-    height:;
   }
 
   .video-title {
